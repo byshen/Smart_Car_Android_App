@@ -1,0 +1,142 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/preview_width"
+    android:layout_height="@dimen/preview_height"
+    android:paddingLeft="0sp"
+    android:paddingRight="0sp"
+    android:paddingTop="0sp"
+    android:paddingBottom="0sp"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="com.example.am.kc3c.master.activity.ControlActivity">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/preview_width"
+        android:layout_height="@dimen/preview_height">
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="800sp"
+            android:layout_height="840sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginLeft="0sp">
+            <ImageButton
+                android:id="@+id/main_bg"
+                android:layout_width="605sp"
+                android:layout_height="830sp"
+                android:background="@mipmap/main_bg" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r1"
+            android:layout_marginLeft="@dimen/menu_c1">
+            <ImageButton
+                android:id="@+id/main_1"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_1" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r1"
+            android:layout_marginLeft="@dimen/menu_c2">
+            <ImageButton
+                android:id="@+id/main_2"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_2" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r1"
+            android:layout_marginLeft="@dimen/menu_c3">
+            <ImageButton
+                android:id="@+id/main_3"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_3" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r2"
+            android:layout_marginLeft="@dimen/menu_c1">
+            <ImageButton
+                android:id="@+id/main_4"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_4" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r2"
+            android:layout_marginLeft="@dimen/menu_c2">
+            <ImageButton
+                android:id="@+id/main_5"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_5" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r2"
+            android:layout_marginLeft="@dimen/menu_c3">
+            <ImageButton
+                android:id="@+id/main_6"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_6" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r3"
+            android:layout_marginLeft="@dimen/menu_c1">
+            <ImageButton
+                android:id="@+id/main_7"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_7" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r3"
+            android:layout_marginLeft="@dimen/menu_c2">
+            <ImageButton
+                android:id="@+id/main_8"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_8" />
+        </FrameLayout>
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="@dimen/menu_r3"
+            android:layout_marginLeft="@dimen/menu_c3">
+            <ImageButton
+                android:id="@+id/main_9"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_9" />
+        </FrameLayout>
+
+    </FrameLayout>
+</ScrollView>

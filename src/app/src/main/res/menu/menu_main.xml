@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.am.kc3c.master.menu.ActivityMenuGroup">
+
+    <item android:id="@+id/action_buttonControl" android:title="@string/action_Control"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_main" android:title="@string/action_main"
+        android:orderInCategory="2" app:showAsAction="never" />
+
+</menu>

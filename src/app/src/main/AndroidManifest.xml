@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.am.kc3c.master" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ControlActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_Control" >
+        </activity>
+        <activity
+            android:name=".activity.ButtonActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_button" >
+        </activity>
+        <activity
+            android:name=".activity.GravityActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_gravity" >
+        </activity>
+        <activity
+            android:name=".activity.SpeechActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_speech" >
+        </activity>
+        <activity
+            android:name=".activity.GestureActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_gesture" >
+        </activity>
+        <activity
+            android:name=".activity.RouteActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_route" >
+        </activity>
+        <activity
+            android:name=".activity.VectorActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_vector" >
+        </activity>
+        <activity
+            android:name=".activity.FollowActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/action_follow" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KC3C-master</string>
+
+    <string name="action_main">连接</string>
+    <string name="action_Control">菜单</string>
+    <string name="action_button">按钮控制</string>
+    <string name="action_gravity">重力控制</string>
+    <string name="action_speech">语音控制</string>
+    <string name="action_gesture">手势控制</string>
+    <string name="action_route">路径绘制</string>
+    <string name="action_vector">向量控制</string>
+    <string name="action_follow">物体跟踪</string>
+
+
+    <string name="hint_ip">受控端IP</string>
+    <string name="hint_port">端口</string>
+    <string name="hint_log">(LOG INFO)</string>
+    <string name="app_id">app_id</string>
+    <string name="english">english</string>
+    <string name="cantonese">粤语</string>
+    <string name="mandarin">普通话</string>
+
+</resources>

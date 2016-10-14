@@ -1,0 +1,110 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/preview_width"
+    android:layout_height="@dimen/preview_height"
+    android:paddingLeft="0sp"
+    android:paddingRight="0sp"
+    android:paddingTop="0sp"
+    android:paddingBottom="0sp"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="com.example.am.kc3c.master.activity.SpeechActivity">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/preview_width"
+        android:layout_height="@dimen/preview_height">
+
+        <FrameLayout
+            android:id="@+id/preview_frame3"
+            android:layout_width="@dimen/preview_width"
+            android:layout_height="@dimen/preview_height"
+            android:layout_gravity="center" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="800sp"
+            android:layout_height="800sp"
+            android:layout_marginTop="0sp"
+            android:layout_marginLeft="0sp">
+            <ImageButton
+                android:id="@+id/button_touch3"
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:background="@mipmap/t_touch" />
+
+            <ImageButton
+                android:id="@+id/button_voice"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_marginTop="620sp"
+                android:layout_marginLeft="160sp"
+                android:background="@mipmap/button_voice" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup_language"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="760dp"
+                android:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/radio_mandarin"
+                    android:text="国语"
+                    android:textColor="@color/material_blue_grey_800"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_cantonese"
+                    android:text="粤语"
+                    android:textColor="@color/material_blue_grey_800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_english"
+                    android:text="英语"
+                    android:textColor="@color/material_blue_grey_800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50sp" />
+            </RadioGroup>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400sp"
+            android:layout_marginTop="400sp">
+            <TextView
+                android:id="@+id/textView_info_vedio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:orientation="horizontal"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="620sp"
+            android:layout_marginLeft="430sp">
+            <ImageButton
+                android:id="@+id/button_dash3"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:background="@mipmap/main_3"/>
+        </FrameLayout>
+
+    </FrameLayout>
+</ScrollView>
